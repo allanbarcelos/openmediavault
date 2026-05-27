@@ -1,3 +1,12 @@
+openmediavault (8.3.0-1) stable; urgency=medium
+
+  * Refactor storage device processing in the PHP backend code.
+  * Relocate MD related scripts to the corresponding plugin.
+  * Add a new option to omv-firstaid to refresh APT package lists and clean
+    caches.
+
+ -- Volker Theile <volker.theile@openmediavault.org>  Sat, 23 May 2026 20:21:20 +0200
+
 openmediavault (8.2.14-3) stable; urgency=medium
 
   * Add the environment variables `OMV_POSTFIX_MAIN_SMTP_TLS_SERVERNAME`
